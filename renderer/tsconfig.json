@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/Dedications/Header",
+    "next.config.js"
+  ],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "incremental": true
+  }
+}

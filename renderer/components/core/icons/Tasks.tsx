@@ -1,0 +1,44 @@
+export default function TasksIcon() {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.66699 10.668H5.66699C4.00999 10.668 2.66699 9.32497 2.66699 7.66797V5.66797C2.66699 4.01097 4.00999 2.66797 5.66699 2.66797H7.66699C9.32399 2.66797 10.667 4.01097 10.667 5.66797V7.66797C10.667 9.32497 9.32399 10.668 7.66699 10.668Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M18.333 10.668H16.333C14.676 10.668 13.333 9.32497 13.333 7.66797V5.66797C13.333 4.01097 14.676 2.66797 16.333 2.66797H18.333C19.99 2.66797 21.333 4.01097 21.333 5.66797V7.66797C21.333 9.32497 19.99 10.668 18.333 10.668Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.66699 21.332H5.66699C4.00999 21.332 2.66699 19.989 2.66699 18.332V16.332C2.66699 14.675 4.00999 13.332 5.66699 13.332H7.66699C9.32399 13.332 10.667 14.675 10.667 16.332V18.332C10.667 19.989 9.32399 21.332 7.66699 21.332Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M18.333 21.332H16.333C14.676 21.332 13.333 19.989 13.333 18.332V16.332C13.333 14.675 14.676 13.332 16.333 13.332H18.333C19.99 13.332 21.333 14.675 21.333 16.332V18.332C21.333 19.989 19.99 21.332 18.333 21.332Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}

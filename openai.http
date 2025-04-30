@@ -1,0 +1,17 @@
+# Send request to open ai classification endpoint
+POST https://api.openai.com/v1/classifications
+Content-Type: application/json
+Authorization: Bearer 
+
+{
+  "examples": [
+    ["YouTube", "Entertainment"],
+    ["Google Docs", "Study"],
+    ["OpenAI", "Development"],
+    ["SpieleApp", "Entertainment"]
+  ],
+  "query": "How to study faster - YouTube",
+  "search_model": "ada",
+  "model": "curie",
+  "labels":["Entertainment", "Development", "Study"]
+}

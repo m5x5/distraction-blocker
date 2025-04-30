@@ -1,0 +1,12 @@
+appId: com.blocker.leptum
+productName: Leptum Blocker
+copyright: Copyright © 2022 Michael P.
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
